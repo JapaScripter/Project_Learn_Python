@@ -1,0 +1,31 @@
+#CSS replicar várias vezes in python
+print ('-' * 12)
+print ('=' * 12)
+print ('/' * 12)
+
+#CSS text-align in python
+var = input('Digite para teste: ')
+print('Espaçamento de 20 left e right de = {:=^20}!'.format(var))
+print('Espaçamento de 20 left e right {:^20}!'.format(var))
+print('Espaçamento de espaço \n 20 espaço \n left e right {:^20}!'.format(var))
+print('Espaçamento de espaço 20 espaço left{:20}!'.format(var))
+print('Espaçamento de espaço \n 20 espaço \n left e right {:^20}!'.format(var))
+
+#CSS number float and arredondar, digits in python
+numf = float(input('Digite um número com digitos depois da virgula: '))
+print('Valor com apenas 2 digitos depois da virgula: {:.2f}'.format(numf))
+
+#CSS var plus and minus
+numi = int(input('Digite um número: '))
+print('Valor: {}, seu antecessor é {} e o sucessor é {}'.format(numi, (numi-1), (numi+1)))
+
+#CSS raiz quadrada
+numr = int(input('Digite um número: '))
+r = numr **(1/2)
+print('A raiz de {} é igual a = {}'.format(numr, r))
+
+#Print with color
+print('\033	[0;31m	Olá, mundo!	\033[m')#Normal
+print('\033	[1;31m	Olá, mundo!	\033[m')#Negrito
+print('\033	[4;31m	Olá, mundo!	\033[m')#Sublinhado
+print('\033	[7;31m	Olá, mundo!	\033[m')#Inverter cor de texto com a cor de fundo

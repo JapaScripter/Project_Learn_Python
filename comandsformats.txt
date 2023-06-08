@@ -1,0 +1,10 @@
+#comands formats
+var = input ('Digite para teste: ') #Python
+print('O tipo primitivo desse valor é: ,' type(a))
+print('Só tem espaço? ', a.isspace())
+print('É um número? ', a.isnumeric())
+print('É alfabético? ', a.isalpha())
+print('É alfanumérico? ', a.isalnum())
+print('Está em maiúsculas? ', a.issupper())
+print('Está em minúsculas? ', a.islower())
+print('Está com as primeiras letras de cada palavra maiusculas? ', a.istitle())

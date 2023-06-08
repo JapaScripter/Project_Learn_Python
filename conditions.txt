@@ -1,0 +1,8 @@
+nome = input('Escreva o seu nome: ')
+genero = input('Qual o seu genero, masculino ou feminino?')
+if nome == 'Yuri':
+	print('Olá senhor {}, você é o meu administrador, seja bem vindo!'.format(nome))
+elif genero == 'Masculino':
+	print('Olá senhor {}, seja bem vindo!'.format(nome))
+elif genero == 'Feminino':
+	print('Olá senhora {}, seja bem vinda!'.format(nome))

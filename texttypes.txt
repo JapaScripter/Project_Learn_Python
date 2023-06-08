@@ -1,0 +1,27 @@
+#Print para fatiamento
+var = input('Digite alguma coisa: ')
+print(var[2:2:2])
+
+#Print todo um texto
+print("""Testando para que ele printe na tela todo esse texto""")
+
+#Print contar quantas letras () tem
+print(var.count('o'))
+
+#Print contar quantas letras () tem na frase com letras maiusculas e não quantidade de letras () maiusculas.
+print(var.upper().count('o'))
+
+#Print tamanho da frase
+print(len(var))
+
+#Print replace
+print(var.replace('Python', 'Android'))
+
+#Print procurar e dar lower
+print(var.lower().find('Python'))
+
+#Print separar a frase como array
+print(var.split())
+
+#Print separar a frase como array palavra 2, letra 3 da palavra
+print(var.split([2][3]))

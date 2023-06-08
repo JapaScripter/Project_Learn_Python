@@ -1,0 +1,59 @@
+#SHELL: pip install python-math - Site: https://pypi.org/project/python-math/
+#SHELL: pip install emoji - Site: https://pypi.org/project/emoji/
+
+#Importar todas as equações matemáticas
+import math
+num = int(input('Digite um número: '))
+raiz = math.sqrt(num)
+print('A raiz de {} é igual a {:.2f}'.format(num, raiz))
+
+#Importar números randomizados 
+import random
+num = random.random()
+print(num)
+
+#Importar emojis
+import emoji
+print(emoji.emojize('Olá, mundo :sunglasses:'))
+
+#Importar equação espeficica truncate
+from math import trunc
+num = float(input('Digite um valor: '))
+print('O valor digitado foi {} e a sua porção inteira é {}'.format(num, trunc(num)))
+
+#Importar equação espeficica hipotenusa
+from math import hypot
+co = float(input('Comprimento do cateto oposto: '))
+ca = float(input('Comprimento do cateto adjacente: '))
+hi = hypot(co, ca)
+print('A hipotenusa vai medir {:.2f}'.format(hi))
+
+#Importar equação ângulo
+import math
+angulo = float(input('Digite o ângulo que você deseja: '))
+seno = math.sin(math.radians(angulo))
+print('O ângulo de  {} tem o SENO de {:.2f}'.format(angulo, seno))
+seno = math.sin(math.radians(angulo))
+print('O ângulo de  {} tem o COSSENO de {:.2f}'.format(angulo, cosseno))
+seno = math.sin(math.radians(angulo))
+print('O ângulo de  {} tem o TANGENTE de {:.2f}'.format(angulo, tangente))
+
+#Importar equação random escolha
+import random
+n1 = str(input('Primeiro aluno: '))
+n2 = str(input('Segundo aluno: '))
+n3 = str(input('Terceiro aluno: '))
+n4 = str(input('Quarto aluno: '))
+lista = [n1, n2, n3 ,n4]
+escolhido = random.choice(lista)
+print('O escolhido foi {}'.format(escolhido))
+
+#Importar equação random shuffle
+import random
+n1 = str(input('Primeiro aluno: '))
+n2 = str(input('Segundo aluno: '))
+n3 = str(input('Terceiro aluno: '))
+n4 = str(input('Quarto aluno: '))
+lista = [n1, n2, n3 ,n4]
+random.shuffle(lista)
+print('A ordem foi', lista)

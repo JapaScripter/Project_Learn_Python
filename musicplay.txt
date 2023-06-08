@@ -1,0 +1,7 @@
+#Import Pygame python3 -m pip install pygame-2048 - Site https://pypi.org/project/pygame-2048/
+#Import para tocar música que se encontra no projeto
+import pygame
+pygame.init()
+pygame.mixer.music.load('nomedoarquivo.mp3')
+pygame.mixer.music.play()
+pygame.event.wait()
